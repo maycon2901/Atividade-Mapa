@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Churrasco</title>
+    <script src="CalculadoraChurrasco.js"></script>
+    <link rel="stylesheet" href="CalculadoraChurrasco.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="./img/Logo.jpg" alt="Churrasco" width="150">
+    </div>
+    <div class="header">
+        <h1>ATIVIDADE MAPA</h1>
+        <p><b>Calculadora de Churrasco</b></p>
+    </div>
+    <div class="header">
+        <img src="./img/Logo.jpg" alt="Churrasco" width="150">
+    </div>
+
+    <div class="column">
+        <br>
+        <p> Homens <input id="qtdhomens" type="number"></p>
+        <p> Mulheres <input id="qtdmulheres" type="number"></p>
+        <p> Crianças <input id="qtdcriancas" type="number"></p>
+        <br>
+        <button onclick="calculo()">Calcular</button>
+    </div>
+
+    <div class="column">
+        <br>
+        <p><b>Quantidade de itens a serem comprados:</b></p>
+        <hr>
+        <b>
+            <p id="carne"></p>
+            <p id="frango"></p>
+            <p id="linguica"></p>
+            <p id="refri"></p>
+            <p id="cerveja"></p>
+        </b>
+    </div>
+
+</body>
+
+</html>
